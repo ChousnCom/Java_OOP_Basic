@@ -1,0 +1,19 @@
+package lesson_1_9_polymorphism2.Interface;
+
+public class Child implements InterfaceA,InterfaceB{
+
+    @Override
+    public void methodA(){
+        System.out.println("methodA");
+    }
+
+    @Override
+    public void methodB(){
+        System.out.println("methodB");
+    }
+
+    @Override
+    public void methodCommon(){
+        System.out.println("methodCommon");
+    }
+}
